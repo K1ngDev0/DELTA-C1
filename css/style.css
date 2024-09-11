@@ -206,7 +206,7 @@ i {
     color: var(--tertiary-color);
     justify-content: center;
     align-items: center;
-    height: 90vh;   
+    height: 120vh;   
 }
 
 .content {
@@ -227,6 +227,13 @@ i {
 #section3 h2 {
     font-size: 2rem;
     margin: 2rem 0;
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+#section3 p {
+    font-size: 1.2rem;
+    width: 80%;
 }
 
 #section4 {
