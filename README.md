@@ -1,6 +1,6 @@
 # DELTA-C1
 
-Welkom bij DELTA-C1! Dit project is bedoeld om je te helpen met het leren van softwareontwikkeling. Hier vind je alles wat je nodig hebt om aan de slag te gaan.
+Welkom bij DELTA-C1!
 
 ## Inhoud
 
