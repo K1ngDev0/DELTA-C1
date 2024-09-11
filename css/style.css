@@ -28,3 +28,70 @@ button {
     align-items: center;
     height: 90vh;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    position: relative;
+}
+
+.logo {
+    height: 50px;
+    padding: 10px;
+}
+
+.hamburgerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hamburgerButton {
+    height: 100%;
+    width: 5rem;
+    color: white;
+    background-color: var(--tertiary-color);
+    z-index: 2;
+    position: fixed;
+    transition: .3s ease;
+}
+
+i {
+    transition: .3s ease;
+}
+
+.hamburgerButton:hover i {
+    transform: rotate(-90deg);
+}
+
+.hamburger {
+    transition: 0.3s ease;
+    background-color: var(--secondary-color);
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.hamburger.show {
+    transform: translateX(-200px);
+}
+
+.hamburgerButton.active {
+    transform: translateX(-200px);
+}
+
+.hamburger a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 10px 0;
+}
