@@ -271,7 +271,6 @@ i {
 }
 
 .vakCard h3 {
-    z-index: 1;
     transition: opacity 0.3s ease-in-out;
     font-size: 2rem;
 }
@@ -283,7 +282,6 @@ i {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2;
     width: 80%;
 }
 
@@ -439,7 +437,7 @@ footer {
     }
 
     #section3 img {
-        width: 120%;
+        width: 100%;
     }
 
     #section3 h2 {
@@ -447,7 +445,7 @@ footer {
     }
 
     #section3 p {
-        width: 120%;
+        width: 80%;
     }
 
     #section4 h2 {
