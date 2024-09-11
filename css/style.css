@@ -142,3 +142,14 @@ i {
     text-decoration: none;
     margin: 10px 0;
 }
+
+#section2 {
+    background-color: white;
+    color: var(--primary-color);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
