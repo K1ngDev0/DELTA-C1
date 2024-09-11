@@ -228,3 +228,10 @@ i {
     font-size: 2rem;
     margin: 2rem 0;
 }
+
+#section4 {
+    color: var(--primary-color);
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
