@@ -20,3 +20,11 @@ button {
     background-color: transparent;
     border: none;
 }
+
+.section1 {
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
