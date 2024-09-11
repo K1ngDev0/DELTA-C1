@@ -245,6 +245,11 @@ i {
     flex-direction: column;
 }
 
+#section4 h2 {
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+
 .vakCards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -269,6 +274,7 @@ i {
 .vakCard h3 {
     z-index: 1;
     transition: opacity 0.3s ease-in-out;
+    font-size: 2rem;
 }
 
 .vakCard p {
