@@ -206,7 +206,6 @@ i {
     color: var(--tertiary-color);
     justify-content: center;
     align-items: center;
-    height: 120vh;   
 }
 
 .content {
@@ -221,7 +220,7 @@ i {
 }
 
 #section3 img {
-    height: 60%;
+    width: 100%;
 }
 
 #section3 h2 {
@@ -234,13 +233,13 @@ i {
 #section3 p {
     font-size: 1.2rem;
     width: 80%;
+    padding: 20px;
 }
 
 #section4 {
     color: var(--primary-color);
     justify-content: center;
     align-items: center;
-    height: 120vh;
     display: flex;
     flex-direction: column;
 }
@@ -289,7 +288,6 @@ i {
 }
 
 .vakCard:hover {
-    /* box shadow */
     box-shadow: 10px 10px var(--primary-color);
 }
 
@@ -382,4 +380,96 @@ footer {
 .footer-bottom {
     margin-top: 2rem;
     font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .location {
+        display: none;
+    }
+
+    .heroContent{
+        text-align: center;
+    }
+
+    .heroText {
+        padding: 1rem;
+    }
+
+    .heroText h2 {
+        font-size: 1rem;
+    }
+
+    .hamburgerButton {
+        left: 0;
+        top: 10rem;
+    }
+
+    .hamburger {
+        left: -200px;
+    }
+
+    .hamburger.show {
+        transform: translateX(200px);
+    }
+
+    .hamburgerButton.active {
+        transform: translateX(200px);
+    }
+    
+    .sectionCard {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sectionText {
+        width: 80%;
+    }
+
+    .sectionText h2 {
+        font-size: 2rem;
+    }
+
+    .sectionCard img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .sectionText a {
+        width: 20px;
+    }
+
+    #section3 img {
+        width: 120%;
+    }
+
+    #section3 h2 {
+        font-size: 1.5rem;
+    }
+
+    #section3 p {
+        width: 120%;
+    }
+
+    #section4 h2 {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+
+    .vakCards {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    #section5 h2 {
+        font-size: 2rem;
+    }
+
+    #section5 img {
+        width: 100%;
+    }
 }
