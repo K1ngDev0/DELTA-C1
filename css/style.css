@@ -300,3 +300,20 @@ i {
 .vakCard:hover h3 {
     opacity: 0;
 }
+
+#section5 {
+    background-color: var(--primary-color);
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+#section5 .content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#section5 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
