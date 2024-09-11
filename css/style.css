@@ -29,6 +29,51 @@ button {
     height: 90vh;
 }
 
+.heroContent {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.location {
+    height: 77.6%;
+    border-top-right-radius: 100%;
+}
+
+.heroText {
+    padding: 10rem;
+}
+
+.heroText h1{
+    font-size: 4rem;
+    color: var(--secondary-color);
+}
+
+.heroText h2 {
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
+
+.heroButtons {
+    margin: 50px 0;
+}
+
+.heroButtons a {
+    text-decoration: none;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: .3s ease;
+}
+
+.heroButtons a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
 header {
     display: flex;
     justify-content: space-between;
